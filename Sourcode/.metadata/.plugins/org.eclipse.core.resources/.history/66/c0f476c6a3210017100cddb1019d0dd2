@@ -1,0 +1,15 @@
+package polymorphism;
+
+public class CSEStudent extends Student {
+
+/*	public void showStudentDetails() {
+		super.showStudentDetails();
+	}*/
+	
+	public void showStudentDetails() {
+		System.out.println("Hello I am CSE Student");
+	}
+	
+	
+
+}

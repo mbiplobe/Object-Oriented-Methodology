@@ -1,0 +1,40 @@
+package inheritance;
+
+import java.awt.DisplayMode;
+
+
+public class UnivarsityStudent extends Student{
+	
+	public UnivarsityStudent(String department,String name,String id,String mobile) {
+		super(name,id,mobile);
+		this.department = department;
+		
+		System.out.println("Hello i am Univarsity Student, Name: "+name+"\nid :"+id+"\nMobile : "+mobile+"\n Department :"+department);	
+		
+	}
+	
+	public UnivarsityStudent() {
+		super();
+		this.department = "";
+		
+//		System.out.println("Hello i am Univarsity Student.");	
+	}
+
+
+	private String department;
+
+	public String getDepartment() {
+		return department;
+	}
+
+	public void setDepartment(String department) {
+		this.department = department;
+	}
+	
+	@Override
+	public void showDetails() {
+		super.showDetails();
+		String details="Student Name :"+getName()+",Student Id :"+getId()+",Student Mobile :"+getMobile()+",Department :"+getDepartment();
+		System.out.println(details);
+	}
+}

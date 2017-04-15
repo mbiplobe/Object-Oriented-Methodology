@@ -1,0 +1,16 @@
+package polymorphism;
+
+public class Polimorphism {
+
+	public static void main(String[] args) {
+		CSEStudent cseStudent=new CSEStudent();
+		
+		cseStudent.setId("03...");
+		cseStudent.setMobile("017..");
+		cseStudent.setName("M..");
+
+		cseStudent.showStudentDetails();
+
+	}
+
+}

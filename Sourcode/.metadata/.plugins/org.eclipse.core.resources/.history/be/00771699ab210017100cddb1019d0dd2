@@ -1,0 +1,14 @@
+package inheritance;
+
+public class SimpleInheritanceExample {
+	
+	public static void main(String[] args) {
+		UnivarsityStudent univarsityStudent=new UnivarsityStudent();
+		univarsityStudent.setName("F");
+		univarsityStudent.setId("030");
+		univarsityStudent.setMobile("0173");
+		univarsityStudent.setDepartment("CSE");
+	}
+
+	
+}

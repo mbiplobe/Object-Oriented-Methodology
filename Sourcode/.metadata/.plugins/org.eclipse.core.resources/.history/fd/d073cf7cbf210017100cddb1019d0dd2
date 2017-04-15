@@ -1,0 +1,8 @@
+package inheritance;
+
+public class InheritanceMethodOverriding {
+	public static void main(String[] args) {
+		UnivarsityStudent univarsityStudent=new UnivarsityStudent();
+		univarsityStudent.showDetails();
+	}
+}
