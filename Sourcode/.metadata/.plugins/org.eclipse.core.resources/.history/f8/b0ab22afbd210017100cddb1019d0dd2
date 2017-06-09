@@ -1,7 +1,0 @@
-package inheritance;
-
-public class Inheritance_Method_Overriding {
-	public static void main(String[] args) {
-		
-	}
-}
